@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(Background.jpg);
+  width: 100% 100%;
+  margin-top: -80px;
+}
+.sky-picture {
+  background-image: url(sky.png);
+  width: 100% 100%;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 0px 0px 18px black;
+}
+
+.calculator {
+  background-color: rgb(4, 40, 77);
+  padding: 14px;
+  border-radius: 8px;
+}
+
+p {
+  margin-bottom: 5px;
+  color: snow;
+}
+
+.textView {
+  width: 278px;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: end;
+  margin-bottom: 20px;
+}
+.button {
+  width: 65px;
+  height: 50px;
+  font-size: 22px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px #fdfd;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 3px black;
+}
+
+.equal {
+  height: 110px;
+  box-shadow: 0px 0px 3px rgb(45, 168, 245);
+  background-color: rgb(45, 168, 245);
+}
+
+.del {
+  background-color: rgb(248, 52, 52);
+  box-shadow: 0px 0px 3px rgb(248, 46, 46);
+  color: white;
+}
+
+.clear {
+  background-color: rgb(248, 52, 52);
+  box-shadow: 0px 0px 3px rgb(248, 46, 46);
+  color: white;
+}
+
+.operation {
+  background-color: rgb(168, 213, 253);
+  box-shadow: 0px 0px 3px rgb(168, 213, 253);
+}
